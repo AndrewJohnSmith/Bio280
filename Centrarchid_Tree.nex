@@ -1,0 +1,47 @@
+#NEXUS
+
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=26;
+	TAXLABELS
+		'Acantharchus_pomotis' 'Ambloplites_ariommus' 'Ambloplites_cavifrons' 'Ambloplites_rupestris' 'Archoplites_interruptus' 'Centrarchus_macropterus' 'Enneacanthus_chaetodon' 'Enneacanthus_gloriosus' 'Enneacanthus_obesus' 'Lepomis_auritus' 'Lepomis_cyanellus' 'Lepomis_gibbosus' 'Lepomis_gulosus' 'Lepomis_humilis' 'Lepomis_macrochirus' 'Lepomis_marginatus' 'Lepomis_megalotis' 'Lepomis_microlophus' 'Lepomis_punctatus' 'Micropterus_coosae' 'Micropterus_dolomieu' 'Micropterus_punctulatus' 'Micropterus_salmoides' 'Micropterus_treculii' 'Pomoxis_annularis' 'Pomoxis_nigromaculatus' 
+	;
+END;
+
+
+begin TREES;
+
+	TRANSLATE
+		1 'Acantharchus_pomotis',
+		2 'Ambloplites_ariommus',
+		3 'Ambloplites_cavifrons',
+		4 'Ambloplites_rupestris',
+		5 'Archoplites_interruptus',
+		6 'Centrarchus_macropterus',
+		7 'Enneacanthus_chaetodon',
+		8 'Enneacanthus_gloriosus',
+		9 'Enneacanthus_obesus',
+		10 'Lepomis_auritus',
+		11 'Lepomis_cyanellus',
+		12 'Lepomis_gibbosus',
+		13 'Lepomis_gulosus',
+		14 'Lepomis_humilis',
+		15 'Lepomis_macrochirus',
+		16 'Lepomis_marginatus',
+		17 'Lepomis_megalotis',
+		18 'Lepomis_microlophus',
+		19 'Lepomis_punctatus',
+		20 'Micropterus_coosae',
+		21 'Micropterus_dolomieu',
+		22 'Micropterus_punctulatus',
+		23 'Micropterus_salmoides',
+		24 'Micropterus_treculii',
+		25 'Pomoxis_annularis',
+		26 'Pomoxis_nigromaculatus';
+
+
+	TREE 'Centrar_chrono' = (1:33.59,((6:22.83,((7:11.32,(8:4.03,9:4.03):7.29):10.28,((25:12.0,26:12.0):7.18,(5:15.5,((2:2.93,4:2.93):5.91,3:8.84):6.66):3.68):2.42):1.23):6.11,(((21:1.67,22:1.67):6.73,(20:5.93,(24:4.11,23:4.109999999999999):1.8199999999999998):2.4699999999999998):16.41,(((14:5.17,15:5.17):7.94,(13:6.6,11:6.6):6.51):1.53,((10:4.19,(16:2.72,17:2.72):1.47):5.62,(12:7.84,(18:3.46,19:3.46):4.38):1.97):4.83):10.17):4.13):4.65)[% ] [% ] [% setBetweenBits = selected ];
+end;
+
+
